@@ -10,9 +10,6 @@ Python-based analysis of the Pantheon+SH0ES Type Ia supernova dataset to investi
 - Examine residuals for trends or outliers.
 - Compare analyses with a fixed matter-density parameter and, where implemented, low-redshift and high-redshift subsamples.
 
-## Data
-The dataset is not bundled with this repository. Obtain the appropriate release from the [PantheonPlusSH0ES DataRelease repository](https://github.com/PantheonPlusSH0ES/DataRelease), review its data-use notes, and place the required file in `data/`. Document the exact filename and columns used by the notebook. Do not commit large files or data that you are not permitted to redistribute.
-
 The project report identifies columns including `zHD`, `MU_SH0ES`, and `MU_SH0ES_ERR_DIAG`; confirm these against the exact file downloaded before running the analysis.
 
 Launch the notebook using Jupyter Lab or Jupyter Notebook. Update the local data path if needed.
