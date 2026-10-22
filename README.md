@@ -15,25 +15,6 @@ The dataset is not bundled with this repository. Obtain the appropriate release 
 
 The project report identifies columns including `zHD`, `MU_SH0ES`, and `MU_SH0ES_ERR_DIAG`; confirm these against the exact file downloaded before running the analysis.
 
-## Repository layout
-```text
-data/       # Local input data; see data/README.md
-notebooks/  # Analysis notebook(s)
-figures/    # Exported plots
-results/    # Summary results and tables
-requirements.txt
-```
-
-## Setup
-Python 3.10 or later is recommended. Create and activate a virtual environment, then install dependencies:
-
-```bash
-python -m venv .venv
-# Windows PowerShell: .venv\Scripts\Activate.ps1
-# macOS/Linux: source .venv/bin/activate
-python -m pip install -r requirements.txt
-```
-
 Launch the notebook using Jupyter Lab or Jupyter Notebook. Update the local data path if needed.
 
 ## Reported result
